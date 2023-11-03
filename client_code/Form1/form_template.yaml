@@ -7,7 +7,11 @@ components:
   properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
-  components: []
+  components:
+  - name: button_1
+    properties: {text: Soumya, bold: true, align: center}
+    type: Button
+    layout_properties: {grid_position: 'OLQLFQ,ITTJPW'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
@@ -17,6 +21,11 @@ components:
   type: TextArea
   layout_properties: {slot: left-nav}
 - name: link_1
-  properties: {text: Home}
+  properties: {text: Home, bold: true}
   type: Link
   layout_properties: {slot: title}
+  components:
+  - name: link_2
+    properties: {text: about}
+    type: Link
+    layout_properties: {grid_position: 'KNYJIP,TWHWTM'}
