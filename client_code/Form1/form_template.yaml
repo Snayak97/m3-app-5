@@ -20,6 +20,10 @@ components:
     properties: {text: hii}
     type: Button
     layout_properties: {grid_position: 'EAYMHT,TGHWOR'}
+  - name: button_3
+    properties: {text: button_3}
+    type: Button
+    layout_properties: {grid_position: 'EVMQZY,SDNFYF'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
