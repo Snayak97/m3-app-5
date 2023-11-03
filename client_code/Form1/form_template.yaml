@@ -8,6 +8,10 @@ components:
   name: content_panel
   layout_properties: {slot: default}
   components:
+  - name: text_area_1
+    properties: {text: 'Narshima  u  seen?', align: center, underline: true, bold: true}
+    type: TextArea
+    layout_properties: {grid_position: 'PJWVWT,ESPNLF'}
   - name: button_1
     properties: {text: Soumya, bold: true, align: center}
     type: Button
@@ -16,10 +20,6 @@ components:
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
-- name: text_area_1
-  properties: {text: hsfhjjvj}
-  type: TextArea
-  layout_properties: {slot: left-nav}
 - name: link_1
   properties: {text: Home, bold: true}
   type: Link
